@@ -1,0 +1,64 @@
+body {
+    background-color: #000000;
+   margin: 0 auto;
+   font-family: 'REM', sans-serif;
+};
+
+.container {
+    position: relative;
+    padding: 3em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.ff-title, .title {
+    color:#472fa9
+}
+.form-background h1,h2,h3 {
+    font-family: 'REM', sans-serif;
+    font-weight: bold;
+}
+.form-background {
+    background: rgba(0, 0, 0, 0.7);
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-weight: 600;
+}
+#ff-compose {
+    color: #f7efff;
+    font-size: 1rem;
+}
+label.ff-item-qs {
+    font-weight: bold !important;
+}
+#background {
+    position: absolute;
+    width: 100%;
+    z-index: -11;
+}
+.logo {
+    border-radius: 50%;
+    max-height: 10rem;
+    margin-top: 20px;
+}
+@media (max-width: 40em) {
+/* Probably some parent element that limits the img width */
+    #background {
+        width: 90%;
+    }
+}
+@media (min-width: 40em) {
+    /* Probably some parent element that limits the img width */
+    .description {
+        margin: 0 auto;
+        width: 60%;
+    }
+}
+input {
+    width: 70%;
+    margin: 0 auto;
+}
+
